@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.singleton.1.0.0.schema.json
+PackageIdentifier: Amazon.Corretto.11
+PackageVersion: 11.0.11.9.1
+PackageName: Corretto
+Publisher: Amazon
+PackageUrl: https://docs.aws.amazon.com/corretto/index.html
+License: GPL 2 with Classpath Exception
+LicenseUrl: https://github.com/corretto/corretto-11/blob/develop/LICENSE
+ShortDescription: No-cost, multiplatform, production-ready distribution of the Open Java Development Kit (OpenJDK).
+Installers:
+- Architecture: x64
+  InstallerUrl: https://corretto.aws/downloads/resources/11.0.11.9.1/amazon-corretto-11.0.11.9.1-windows-x64.msi
+  InstallerType: msi
+  InstallerSha256: 4ccb575789dead510898a5e95c2e339e191da5bcff864b49a56127b62712e0dd
+  InstallerSwitches:
+    Silent: /quiet
+    SilentWithProgress: /passive
+  ProductCode: "{5B5927C5-1135-4E5A-B065-18A625B1ED30}"
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.0.0
+

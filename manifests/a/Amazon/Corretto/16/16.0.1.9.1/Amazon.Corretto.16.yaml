@@ -1,0 +1,20 @@
+PackageIdentifier: Amazon.Corretto.16
+PackageVersion: 16.0.1.9.1
+PackageName: Corretto 16
+Publisher: Amazon
+PackageUrl: https://docs.aws.amazon.com/corretto/index.html
+License: GPL 2 with Classpath Exception
+LicenseUrl: https://github.com/corretto/corretto-jdk/blob/develop-jdk16/LICENSE
+ShortDescription: No-cost, multiplatform, production-ready distribution of the Open Java Development Kit (OpenJDK).
+Installers:
+- Architecture: x64
+  InstallerUrl: https://corretto.aws/downloads/resources/16.0.1.9.1/amazon-corretto-16.0.1.9.1-windows-x64.msi
+  InstallerType: msi
+  InstallerSha256: 5a7b64f2dfff6f92090990e33ab882322a47c8023c1cd667b60bbf6a378f978c
+  InstallerSwitches:
+    Silent: /quiet
+    SilentWithProgress: /passive
+  ProductCode: "{DCBEBC66-F958-417B-A1B0-453CCB50C1D2}"
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.0.0
